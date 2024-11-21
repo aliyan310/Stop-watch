@@ -1,7 +1,8 @@
 
 
 body{
-    background-color: blue;
+    background-color: black;
+    color: white;
     
 }
 h1{
@@ -9,28 +10,21 @@ h1{
     font-size: 3rem;
     text-align: center;
 }
-.container{
-    /* display: flex; */
-    flex-direction: column;
-    margin: 150px auto;
-    padding: 20px 0px;
-}
 h2{
     font-size: 2rem;
     text-align: center;
 }
 div{
     display: flex;
-    /* flex-direction: column; */
     justify-content: center;
 }
 button{
     font-size: 1.5rem;
-    padding: 15px;
+    padding: 10px 15px;
     margin: 10px;
     background-color: green ;
     color: white;
-    border: 1px solid white;
+    border: 1px solid transparent;
     border-radius: 10px;
 }
 .reset{
